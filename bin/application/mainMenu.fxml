@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ec7c26;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.mainMenuCon">
+   <children>
+      <AnchorPane layoutY="100.0" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #fac79b;">
+         <children>
+            <Label graphicTextGap="1.0" layoutX="68.0" layoutY="174.0" prefHeight="45.0" prefWidth="308.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 15;" text="О номерах, клиентах, персонале" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Ink Free" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="staticMenu" layoutX="64.0" layoutY="73.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="316.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 10;" text="Получить информацию" textAlignment="CENTER">
+               <font>
+                  <Font name="Sitka Small" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="freeMenu" layoutX="437.0" layoutY="73.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="316.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 10;" text="Получить информацию" textAlignment="CENTER">
+               <font>
+                  <Font name="Sitka Small" size="17.0" />
+               </font>
+            </Button>
+            <Label graphicTextGap="1.0" layoutX="441.0" layoutY="174.0" prefHeight="45.0" prefWidth="308.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 15;" text="О свободных местах и клиентах " textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Ink Free" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="add" layoutX="568.0" layoutY="441.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="218.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 10;" text="Администрирование" textAlignment="CENTER">
+               <font>
+                  <Font name="Sitka Small" size="17.0" />
+               </font>
+            </Button>
+            <Label graphicTextGap="1.0" layoutX="68.0" layoutY="380.0" prefHeight="45.0" prefWidth="324.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 15;" text="О конкретных номерах и клиентах" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Ink Free" size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="queryMenu" layoutX="72.0" layoutY="279.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="316.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 10;" text="Получить информацию" textAlignment="CENTER">
+               <font>
+                  <Font name="Sitka Small" size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="193.0" layoutY="34.0" prefHeight="45.0" prefWidth="415.0" text="Гостиница &quot;Свобода&quot;" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Sitka Display" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

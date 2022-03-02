@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ec7c26;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.listSoloClientCon">
+   <children>
+      <AnchorPane layoutY="100.0" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #fac79b;">
+         <children>
+            <Button fx:id="back" layoutX="643.0" layoutY="452.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="143.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 10;" text="Назад" textAlignment="CENTER">
+               <font>
+                  <Font name="Sitka Small" size="17.0" />
+               </font>
+            </Button>
+            <Label graphicTextGap="1.0" layoutX="173.0" layoutY="27.0" prefHeight="45.0" prefWidth="458.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 15;" text="  Информация о клиентах в одиночных номерах  " textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Ink Free" size="20.0" />
+               </font>
+            </Label>
+            <TableView fx:id="table" layoutX="227.0" layoutY="87.0" prefHeight="350.0" prefWidth="350.0">
+              <columns>
+                  <TableColumn fx:id="FIO" prefWidth="349.0" text="ФИО" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="193.0" layoutY="34.0" prefHeight="45.0" prefWidth="415.0" text="Гостиница &quot;Свобода&quot;" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Sitka Display" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #ec7c26;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addSTAFFCon">
+   <children>
+      <AnchorPane layoutY="100.0" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #fac79b;">
+         <children>
+            <Label graphicTextGap="1.0" layoutX="194.0" layoutY="31.0" prefHeight="45.0" prefWidth="415.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 15;" text="  Введите информацию о персонале  " textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="firstName" layoutX="50.0" layoutY="140.0" prefHeight="43.0" prefWidth="202.0" promptText="Введите Фамилию" style="-fx-border-color: silver; -fx-border-radius: 1;">
+               <font>
+                  <Font name="Sitka Small" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="add" layoutX="649.0" layoutY="241.0" mnemonicParsing="false" text="Добавить">
+               <font>
+                  <Font name="Sitka Small" size="17.0" />
+               </font>
+            </Button>
+            <TextField fx:id="secondName" layoutX="299.0" layoutY="140.0" prefHeight="43.0" prefWidth="202.0" promptText="Введите Имя" style="-fx-border-color: silver; -fx-border-radius: 1;">
+               <font>
+                  <Font name="Sitka Small" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="threeName" layoutX="557.0" layoutY="140.0" prefHeight="43.0" prefWidth="202.0" promptText="Введите Отчество" style="-fx-border-color: silver; -fx-border-radius: 1;">
+               <font>
+                  <Font name="Sitka Small" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="back" layoutX="643.0" layoutY="452.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="143.0" style="-fx-background-color: #ec7c26; -fx-background-radius: 10;" text="Назад" textAlignment="CENTER">
+               <font>
+                  <Font name="Sitka Small" size="17.0" />
+               </font>
+            </Button>
+            <TextField fx:id="floorList" layoutX="50.0" layoutY="229.0" prefHeight="43.0" prefWidth="266.0" promptText="Введите этажи уборки" style="-fx-border-color: silver; -fx-border-radius: 1;">
+               <font>
+                  <Font name="Sitka Small" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="dayList" layoutX="333.0" layoutY="229.0" prefHeight="43.0" prefWidth="266.0" promptText="Введите дни уборки" style="-fx-border-color: silver; -fx-border-radius: 1;">
+               <font>
+                  <Font name="Sitka Small" size="18.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <Label layoutX="193.0" layoutY="34.0" prefHeight="45.0" prefWidth="415.0" text="Гостиница &quot;Свобода&quot;" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Sitka Display" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
